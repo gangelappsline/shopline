@@ -1,0 +1,1 @@
+import { describe,it,expect } from 'vitest'; import { currency, slugify } from './utils'; describe('utils',()=>{it('formats currency',()=>expect(currency(10)).toContain('10')); it('slugifies',()=>expect(slugify('Hello World!')).toBe('hello-world'))});

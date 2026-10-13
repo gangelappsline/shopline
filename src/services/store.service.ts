@@ -1,0 +1,1 @@
+import { stores, delay } from '@/lib/mock'; export const storeService={ list:()=>delay(stores), detail:(slug:string)=>delay(stores.find(s=>s.slug===slug)) };

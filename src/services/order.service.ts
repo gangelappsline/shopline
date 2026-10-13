@@ -1,0 +1,1 @@
+import { orders, delay } from '@/lib/mock'; export const orderService={ list:()=>delay(orders), detail:(n:string)=>delay(orders.find(o=>o.number===n||o.id===n)) };

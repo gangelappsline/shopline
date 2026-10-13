@@ -1,0 +1,1 @@
+import { Catalog } from './ProductListPage'; export default function CategoryPage(){return <Catalog/>}

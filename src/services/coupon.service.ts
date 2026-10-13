@@ -1,0 +1,1 @@
+export const couponService={ list:()=>Promise.resolve([{code:'SHOPLINE10',type:'percent',value:10,uses:342,max:1000,status:'active'},{code:'WELCOME15',type:'percent',value:15,uses:891,max:2000,status:'active'},{code:'FREESHIP',type:'free_shipping',value:0,uses:120,max:500,status:'paused'}]) };

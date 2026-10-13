@@ -1,0 +1,1 @@
+{"name": "Shopline", "short_name": "Shopline", "start_url": "/", "display": "standalone", "theme_color": "#703fed", "background_color": "#ffffff", "icons": [{"src": "/logo.svg", "sizes": "any", "type": "image/svg+xml"}]}

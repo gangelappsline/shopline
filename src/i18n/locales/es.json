@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "pricing": "Precios",
+    "useCases": "Casos de uso",
+    "templates": "Plantillas",
+    "blog": "Blog",
+    "login": "Iniciar sesi\u00f3n",
+    "start": "Prueba gratis",
+    "dashboard": "Panel",
+    "search": "Buscar\u2026"
+  },
+  "hero": {
+    "badge": "Nuevo \u00b7 Flujos de automatizaci\u00f3n 2.0",
+    "titleA": "Vende online,",
+    "titleB": "con estilo.",
+    "sub": "Lanza una tienda incre\u00edble, automatiza el trabajo repetitivo y crece en todos los canales desde una sola plataforma.",
+    "cta": "Prueba gratis",
+    "demo": "Ver tienda en vivo",
+    "note": "14 d\u00edas gratis \u00b7 Sin tarjeta"
+  },
+  "common": {
+    "addToCart": "A\u00f1adir al carrito",
+    "added": "A\u00f1adido",
+    "checkout": "Pagar",
+    "subtotal": "Subtotal",
+    "free": "GRATIS"
+  }
+}

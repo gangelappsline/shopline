@@ -1,0 +1,1 @@
+import { useAuth as useAuthStore } from '@/store/auth.store'; import { can } from '@/config/permissions'; export const useAuth=()=>{const s=useAuthStore();return {...s,isAuth:!!s.user,has:(p:string)=>s.user?can(s.user.role,p):false}}

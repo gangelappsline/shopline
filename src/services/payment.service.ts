@@ -1,0 +1,1 @@
+export const paymentService={ methods:()=>Promise.resolve([{id:'card',name:'Credit / debit card'},{id:'paypal',name:'PayPal'},{id:'cod',name:'Cash on delivery'}]) };

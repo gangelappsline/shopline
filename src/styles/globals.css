@@ -1,0 +1,11 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--brand:#703fed}
+*{scrollbar-width:thin} html{scroll-behavior:smooth}
+body{@apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-50 antialiased font-sans;}
+::selection{background:#8f39fa;color:#fff}
+.text-gradient{background:linear-gradient(135deg,#90d833,#0b80e6 45%,#703fed 75%,#8f39fa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.glass{background:rgba(255,255,255,.72);backdrop-filter:blur(16px)} .dark .glass{background:rgba(10,10,15,.72)}
+.card-hover{@apply transition-all duration-300 hover:-translate-y-1 hover:shadow-soft hover:border-brand-violet/40}
+.skeleton{background:linear-gradient(90deg,#eee 25%,#f7f7f7 50%,#eee 75%);background-size:200% 100%;animation:shimmer 1.6s infinite}
+input,select,textarea{@apply dark:bg-neutral-900}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

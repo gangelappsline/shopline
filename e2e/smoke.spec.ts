@@ -1,0 +1,1 @@
+import { test, expect } from '@playwright/test'; test('landing loads', async ({page})=>{ await page.goto('/'); await expect(page.getByText('Sell online')).toBeVisible(); }); test('store loads', async ({page})=>{ await page.goto('/store/nova'); await expect(page.getByText('NOVA Studio').first()).toBeVisible(); });
