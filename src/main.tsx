@@ -1,0 +1,4 @@
+import React from 'react'; import { createRoot } from 'react-dom/client'; import App from './App'; import './i18n'; import './styles/globals.css'; import './styles/animations.css'; import { bindAxios } from './lib/axios'; import { useAuth } from './store/auth.store'; import { useTenant } from './store/tenant.store'; import i18n from './i18n';
+if(localStorage.getItem('shopline-ui')?.includes('dark')) document.documentElement.classList.add('dark');
+bindAxios({getToken:()=>{try{return JSON.parse(localStorage.getItem('shopline-auth')||'{}')?.state?.token||null}catch{return null}},getStore:()=>useTenant.getState().slug,getLang:()=>i18n.language,onLogout:()=>useAuth.getState().logout()});
+createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

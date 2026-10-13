@@ -1,0 +1,1 @@
+import { Outlet } from 'react-router-dom'; export const BlankLayout=()=><main className='min-h-screen'><Outlet/></main>;

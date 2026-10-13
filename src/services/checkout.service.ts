@@ -1,0 +1,1 @@
+import { delay } from '@/lib/mock'; export const checkoutService={ createOrder:(payload:unknown)=>delay({number:'#'+Math.floor(1000+Math.random()*9000),...(payload as object)}) };

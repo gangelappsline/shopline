@@ -1,0 +1,9 @@
+export type Role='admin'|'business'|'seller'|'customer';
+export interface User{id:string;name:string;email:string;role:Role;avatar?:string;storeSlug?:string;emailVerified:boolean;lastLoginAt?:string}
+export interface Store{id:string;slug:string;name:string;tagline:string;vertical:string;logoColor:string;currency:string;rating:number;productsCount:number;hero:string;description:string}
+export interface Product{id:string;storeSlug:string;name:string;slug:string;price:number;compareAt?:number;category:string;brand:string;rating:number;reviews:number;stock:number;sales:number;image:string;description:string;tags:string[];variants?:{name:string;values:string[]}[];sku:string;status:'active'|'draft'|'archived';createdAt:string}
+export interface CartItem{product:Product;variant?:string;qty:number}
+export interface Order{id:string;number:string;storeSlug:string;customer:string;email:string;total:number;status:'pending'|'paid'|'fulfilled'|'shipped'|'delivered'|'cancelled'|'refunded';payment:string;items:number;date:string;city:string}
+export interface Customer{id:string;name:string;email:string;orders:number;ltv:number;segment:string;status:'active'|'blocked';joined:string;city:string}
+export interface Plan{id:string;name:string;monthly:number;yearly:number;tagline:string;features:string[];limits:string;highlight?:boolean}
+export interface Review{id:string;product:string;author:string;rating:number;title:string;body:string;date:string;status:string;helpful:number}

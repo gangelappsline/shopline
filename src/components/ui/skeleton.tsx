@@ -1,0 +1,1 @@
+export const Skeleton=({className=''}:{className?:string})=><div className={`skeleton rounded-xl ${className}`}/>; export const ProductSkeleton=()=><div><Skeleton className='aspect-[4/3]'/><Skeleton className='h-4 mt-3 w-3/4'/><Skeleton className='h-4 mt-2 w-1/3'/></div>;

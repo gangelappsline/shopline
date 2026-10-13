@@ -1,0 +1,1 @@
+import { useEffect,useState } from 'react'; export const useMediaQuery=(q:string)=>{const [m,setM]=useState(matchMedia(q).matches);useEffect(()=>{const mq=matchMedia(q);const f=()=>setM(mq.matches);mq.addEventListener('change',f);return ()=>mq.removeEventListener('change',f)},[q]);return m}

@@ -1,0 +1,1 @@
+import { create } from 'zustand'; interface S{query:string;category:string;sort:string;set:(p:Partial<S>)=>void} export const useFilters=create<S>((set)=>({query:'',category:'All',sort:'featured',set:(p)=>set(p)}));

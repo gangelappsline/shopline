@@ -1,0 +1,1 @@
+import { reviews, delay } from '@/lib/mock'; export const reviewService={ list:()=>delay(reviews) };

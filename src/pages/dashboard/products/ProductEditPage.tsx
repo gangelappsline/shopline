@@ -1,0 +1,1 @@
+import { ProductForm } from './ProductForm'; export default function ProductEditPage(){return <ProductForm edit/>}

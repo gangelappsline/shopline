@@ -1,0 +1,1 @@
+export const cartService={ validateCoupon:(code:string)=>Promise.resolve(code.toUpperCase()==='SHOPLINE10'?{code,discount:.10}:null) };

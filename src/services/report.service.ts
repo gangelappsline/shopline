@@ -1,0 +1,1 @@
+import { salesSeries, delay } from '@/lib/mock'; export const reportService={ sales:()=>delay(salesSeries) };

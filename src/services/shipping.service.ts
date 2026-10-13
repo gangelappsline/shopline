@@ -1,0 +1,1 @@
+export const shippingService={ rates:()=>Promise.resolve([{id:'standard',name:'Standard',eta:'3-5 business days',price:6.95},{id:'express',name:'Express',eta:'1-2 business days',price:14.95},{id:'pickup',name:'Local pickup',eta:'Ready today',price:0}]) };

@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "useCases": "Use cases",
+    "templates": "Templates",
+    "blog": "Blog",
+    "login": "Log in",
+    "start": "Start free trial",
+    "dashboard": "Dashboard",
+    "search": "Search\u2026"
+  },
+  "hero": {
+    "badge": "New \u00b7 Automation Flows 2.0 is live",
+    "titleA": "Sell online,",
+    "titleB": "beautifully.",
+    "sub": "Launch a stunning store, automate the busywork and scale across every channel \u2014 all from one premium commerce platform.",
+    "cta": "Start free trial",
+    "demo": "View live store",
+    "note": "Free 14-day trial \u00b7 No credit card required"
+  },
+  "common": {
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "checkout": "Checkout",
+    "subtotal": "Subtotal",
+    "free": "FREE"
+  }
+}

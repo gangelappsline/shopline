@@ -1,0 +1,1 @@
+import { customers, delay } from '@/lib/mock'; export const customerService={ list:()=>delay(customers) };

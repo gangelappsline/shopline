@@ -1,0 +1,1 @@
+import { useAuth } from './useAuth'; export const usePermission=(p:string)=>useAuth().has(p);

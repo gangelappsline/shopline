@@ -1,0 +1,1 @@
+import { plans, delay } from '@/lib/mock'; export const adminService={ plans:()=>delay(plans) };

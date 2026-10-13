@@ -1,0 +1,1 @@
+import { create } from 'zustand'; interface S{slug:string|null;setSlug:(s:string|null)=>void} export const useTenant=create<S>((set)=>({slug:null,setSlug:(slug)=>set({slug})}));

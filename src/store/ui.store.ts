@@ -1,0 +1,3 @@
+import { create } from 'zustand'; import { persist } from 'zustand/middleware';
+interface S{theme:'light'|'dark';sidebar:boolean;cmdOpen:boolean;locale:'en'|'es';setTheme:(t:'light'|'dark')=>void;toggleSidebar:()=>void;setCmd:(b:boolean)=>void;setLocale:(l:'en'|'es')=>void}
+export const useUI=create<S>()(persist((set,get)=>({theme:'light',sidebar:true,cmdOpen:false,locale:'en',setTheme:(theme)=>{set({theme});document.documentElement.classList.toggle('dark',theme==='dark')},toggleSidebar:()=>set({sidebar:!get().sidebar}),setCmd:(cmdOpen)=>set({cmdOpen}),setLocale:(locale)=>set({locale})} ),{name:'shopline-ui'}));
